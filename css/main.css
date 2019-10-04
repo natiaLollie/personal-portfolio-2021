@@ -460,13 +460,43 @@ h5, h6          { font-weight: bolder }
     font-family: "raleway-regular", arial;
     font-size: 15px;
     line-height: 24px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
-<<<<<<< HEAD
+.checkmark{
+  color: #FFAA01;
+}
 
-=======
->>>>>>> inner-slideshow
+#head-para p,
+#head-para h3{
+  margin-bottom: 0;
+}
+
+
+.para2{
+  padding-bottom: 30px;
+}
+
+.software-list{
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+.software-list tr{
+  border: none;
+}
+
+.software-list td{
+  padding-right: 20px;
+  border-right: solid 1px black;
+}
+
+.row2{
+  padding-left: 20px;
+}
+
+
+
 #home-slider .slider-header{
   color:white;
   line-height: 50px;
@@ -487,6 +517,9 @@ h5, h6          { font-weight: bolder }
 
 }
 
+#design-header{
+  margin-bottom: 1px;
+}
 
 
 
