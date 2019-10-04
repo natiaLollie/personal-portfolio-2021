@@ -575,6 +575,10 @@ margin-left: 20px;
   padding-top: 20px;
 }
 
+.icreate-mockup{
+  margin-top: 150px;
+}
+
 .bottom-bar{
   margin-right: auto;
   margin-left: auto;
@@ -597,6 +601,10 @@ margin-left: 20px;
   color: #ffaa01;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.icreate{
+  margin-left: 33%;
 }
 
 
