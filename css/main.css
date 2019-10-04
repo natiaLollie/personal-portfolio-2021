@@ -3,21 +3,21 @@
     Template Author : pixelhint.com
     Author Email    : contact@pixelhint.com
     Template Name   : Magnetic
-    
-    
+
+
     *****************************************
-    
-    
+
+
     - Fonts
     - General CSS
     - Header
-    - Home/portfolio 
-    - Inner page 
-    - Map/Contact page  
-    - Tooltip 
+    - Home/portfolio
+    - Inner page
+    - Map/Contact page
+    - Tooltip
     - Responsive code
-  
-    
+
+
 */
 
 
@@ -96,17 +96,17 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 h1, h2, h3, h4,
 h5, h6          { font-weight: bolder }
 
-.clearfix:before,  
-.clearfix:after {  
-    content: " ";  
-    display: table;  
-}  
-.clearfix:after {  
-    clear: both;  
-}  
- 
-.clearfix {  
-    *zoom: 1;  
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
 }
 
 
@@ -125,7 +125,7 @@ h5, h6          { font-weight: bolder }
         width: 250px;
         min-height: 100%;
         padding: 0 0 0 50px;
-        background: #ffffff; 
+        background: #ffffff;
         float: left;
         overflow: hidden;
         z-index: 9999;
@@ -167,7 +167,8 @@ h5, h6          { font-weight: bolder }
 
     header ul.social{
         list-style: none;
-        margin-bottom: 5px;
+        margin-bottom: 1px;
+        margin-left: 15%;
     }
 
     header ul.social li{
@@ -193,19 +194,19 @@ h5, h6          { font-weight: bolder }
 
 
 
-    header ul.social li a.fb,
-    header ul.social li a.fb:hover{
+    header ul.social li a.lin,
+    header ul.social li a.lin:hover{
         background-position: 0 0;
     }
 
 
-    header ul.social li a.google,
-    header ul.social li a.google:hover{
+    header ul.social li a.drib,
+    header ul.social li a.drib:hover{
         background-position: -31px 0;
     }
 
-    header ul.social li a.behance,
-    header ul.social li a.behance:hover{
+    header ul.social li a.email,
+    header ul.social li a.email:hover{
         background-position: -62px 0;
     }
 
@@ -230,6 +231,7 @@ h5, h6          { font-weight: bolder }
         font-size: 11px;
         letter-spacing: 1px;
         line-height: 18px;
+        text-align: center;
     }
 
     header .rights a{
@@ -254,7 +256,7 @@ h5, h6          { font-weight: bolder }
     background: url('../img/men_icons.png') no-repeat;
 }
 
-#menu_icon{    
+#menu_icon{
     background-position: 0 0;
 }
 .close_menu{
@@ -306,7 +308,7 @@ h5, h6          { font-weight: bolder }
     display: block;
     width: 100%;
     height: 100%;
-    top: 0; 
+    top: 0;
     left: 0;
     background: #ffffff;
     opacity: 0;
@@ -325,22 +327,30 @@ h5, h6          { font-weight: bolder }
     text-align: center;
     top: 50%;
     margin-top: -40px;
+    border-bottom: 1px solid #bfbbbb;
+    border-top: 1px solid #bfbbbb;
+    padding-bottom: 15px;
 }
 
 .main .work .caption h1{
     position: relative;
     display: inline-block;
     max-width: 90%;
-    padding: 20px 0;
+    padding: 10px 0 0;
     z-index: 77;
     color: #454545;
     font-family: "raleway-regular", arial;
     font-size: 16px;
     letter-spacing: .5px;
-    border-bottom: 1px solid #bfbbbb;
-    border-top: 1px solid #bfbbbb;
+
+
 }
 
+.work-para{
+  color: #969595;
+  font-family: "raleway-regular", arial;
+  font-size: 12px;
+}
 
 
 
@@ -435,7 +445,7 @@ h5, h6          { font-weight: bolder }
     font-family: "raleway-regular", arial;
     font-size: 15px;
     line-height: 22px;
-    padding: 60px 30px;
+    padding: 25px 60px 30px 20px;
     background: #fff;
 
     -webkit-box-sizing: border-box;
@@ -449,7 +459,7 @@ h5, h6          { font-weight: bolder }
     font-family: "raleway-regular", arial;
     font-size: 15px;
     line-height: 24px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .content h1,
@@ -462,7 +472,7 @@ h5, h6          { font-weight: bolder }
     font-family: "raleway-semibold", arial;
     font-weight: bold;
     line-height: 28px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
 }
 
@@ -561,7 +571,7 @@ h5, h6          { font-weight: bolder }
         float: right;
         margin: 30px 30px 0 0;
     }
-    
+
     header nav{
         width: 100%;
         position: absolute;
