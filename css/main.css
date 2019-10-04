@@ -365,7 +365,7 @@ h5, h6          { font-weight: bolder }
     overflow: hidden;
     display: block;
     position: relative;
-    background: url('../img/hero_image.jpg') no-repeat;
+    background: url('../img/hero_image.png') no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -463,9 +463,6 @@ h5, h6          { font-weight: bolder }
     margin-bottom: 35px;
 }
 
-.checkmark{
-  color: #FFAA01;
-}
 
 #head-para p,
 #head-para h3{
@@ -521,7 +518,90 @@ h5, h6          { font-weight: bolder }
   margin-bottom: 1px;
 }
 
+/*About Me Page*/
+.about-me{
+  padding-bottom: 25px;
+}
 
+.lego{
+width: 30%;
+display:inline;
+float: right;
+}
+
+.about-resume{
+  padding-top: 10px;
+}
+
+.checkmark{
+  color: #FFAA01;
+  padding-right: 10px;
+}
+
+.contact-available{
+  margin-top: 8px;
+}
+
+.contact-underline{
+  text-decoration: underline;
+  font-weight: bolder;
+  color: #696969;
+}
+
+.arrow-resume{
+  padding-top: 15px;
+  margin-left: -3px;
+}
+
+.arrow-bold{
+  color: #FFAA01;
+  font-size: 18px;
+  font-weight: bolder;
+  padding-right: 8px;
+}
+
+.lego-elements{
+  display: inline-flex;
+  margin-left: 60px;
+  padding-top: 25px;
+}
+
+.elements{
+  width: 13%;
+  margin-left: 130px;
+}
+
+.elements-description{
+  display: inline-flex;
+  margin-left: 150px;
+  padding-bottom: 30px;
+}
+
+.content .elements-desc-one{
+color: #FFAA01;
+font-weight: bolder;
+}
+
+
+.content .elements-desc-two{
+color: #FFAA01;
+font-weight: bolder;
+}
+
+.content .elements-desc-three{
+color: #FFAA01;
+font-weight: bolder;
+}
+
+
+.elements-desc-two{
+padding-right: 150px;
+padding-left: 100px;
+}
+
+.contact-me{
+  padding-top: 25px;
+}
 
 
 
@@ -671,7 +751,3 @@ h5, h6          { font-weight: bolder }
         width: 100%;
     }
 }
-
-/* Image Gallery */
-
-/* End Image Gallery*/
