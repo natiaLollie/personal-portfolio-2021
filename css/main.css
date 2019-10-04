@@ -462,6 +462,12 @@ h5, h6          { font-weight: bolder }
     margin-bottom: 50px;
 }
 
+#home-slider .slider-header{
+  color:white;
+  line-height: 50px;
+}
+
+
 .content h1,
 .content h2,
 .content h3,
@@ -627,3 +633,7 @@ h5, h6          { font-weight: bolder }
         width: 100%;
     }
 }
+
+/* Image Gallery */
+
+/* End Image Gallery*/
