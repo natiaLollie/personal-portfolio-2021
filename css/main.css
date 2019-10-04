@@ -365,7 +365,7 @@ h5, h6          { font-weight: bolder }
     overflow: hidden;
     display: block;
     position: relative;
-    background: url('../img/hero_image.png') no-repeat;
+    background: url('../img/header.png') no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -492,6 +492,15 @@ h5, h6          { font-weight: bolder }
   padding-left: 20px;
 }
 
+.demo-code{
+ padding-left: 5px;
+ padding-right: 5px;
+ color: #FFAA01;
+}
+
+.spacing{
+margin-left: 20px;
+}
 
 
 #home-slider .slider-header{
