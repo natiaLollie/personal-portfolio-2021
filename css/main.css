@@ -536,8 +536,15 @@ margin-left: 20px;
   text-transform: uppercase;
 }
 
+.notice{
+  font-style: italic;
+}
 
-
+.notice-arrow{
+  color: #FFAA01;
+  font-size: 1.2em;
+  font-style: normal;
+}
 
 
 
