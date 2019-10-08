@@ -460,6 +460,23 @@ h5, h6          { font-weight: bolder }
     margin-bottom: 35px;
 }
 
+.old-website{
+  color: #f99c04;
+  font-size: 0.73em;
+  text-transform: uppercase;
+}
+
+.old-arrow{
+  color: #FFAA01;
+  font-size: 0.8em;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.old-arrow.two{
+  display: inline-block;
+  transform: rotate(-180deg);
+}
 
 #head-para p,
 #head-para h3{
