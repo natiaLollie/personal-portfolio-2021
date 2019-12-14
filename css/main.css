@@ -649,6 +649,11 @@ margin-left: 33%;
   margin-left: 40%;
 }
 
+.bottom-bar-main.one{
+  margin-left: 50%;
+  margin-right: auto;
+}
+
 
 /*About Me Page*/
 .about-me{
